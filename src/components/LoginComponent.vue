@@ -21,11 +21,10 @@ export default {
   },
   methods: {
     loginUser() {
-      // Here you would typically send a request to your backend API to authenticate the user
-      // For simplicity, let's just log the username and password
+      
       console.log('Username:', this.username);
       console.log('Password:', this.password);
-      // You can also perform validation before sending the request
+      
     }
   }
 }
