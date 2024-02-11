@@ -22,13 +22,12 @@ export default {
   methods: {
     registerUser() {
       if (!this.username || !this.password) {
-        // Если поля не заполнены, выводим сообщение об ошибке
+   
         alert('Please fill in all fields');
         return;
       }
 
-      // Здесь вы бы отправили запрос на регистрацию пользователя к бэкэнду
-      // В простейшем случае, давайте просто выведем в консоль имя пользователя и пароль
+   
       console.log('Username:', this.username);
       console.log('Password:', this.password);
     }
